@@ -64,7 +64,13 @@ a:focus {
   outline: 0px solid;
   text-decoration: none;
 }
-
+.category-link{
+  color: #009146 !important;
+  font-style: italic;
+}
+.category-link:hover{
+  color: #e5ae49 !important;
+}
 p {
   margin: 0 0 26px;
 }
@@ -98,6 +104,15 @@ ul {
 }
 .logo-text-area-l{
   color: white !important;
+}
+input[type="text"] {
+border-radius: 0 !important;
+}
+textarea{
+  border-radius: 0 !important;
+}
+label{
+  color: black;
 }
 input {
   box-shadow: none;
@@ -460,6 +475,8 @@ margin: 0 0 20px;
 .btn4 {
   display: inline-block;
   background: #009146;
+  border: none !important;
+cursor: pointer;
   color: #fff !important;
   font-family: "Lato", sans-serif;
   font-weight: 700;
